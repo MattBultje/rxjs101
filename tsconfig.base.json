@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rxjs101/tests": ["libs/tests/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
