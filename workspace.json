@@ -23,6 +23,7 @@
       }
     }
   },
+  "defaultProject": "tests",
   "cli": {
     "defaultCollection": "@nrwl/workspace"
   }
