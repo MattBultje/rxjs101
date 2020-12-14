@@ -1,3 +1,7 @@
+# Install packages after checkout
+
+`npm i`
+
 # Run all tests
 
 `nx test`
