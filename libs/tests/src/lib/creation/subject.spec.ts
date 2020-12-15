@@ -12,7 +12,7 @@ class Counter {
   }
 }
 
-describe('assignment 2', () => {
+describe('Subject', () => {
   test('subjects are broadcasting', () => {
     const subject = new Subject();
 
