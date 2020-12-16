@@ -8,4 +8,4 @@
 
 # Run a single testsuite
 
-`nx test -t="assignment 1"`
+`nx test -t="defer"`
