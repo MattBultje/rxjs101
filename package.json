@@ -27,6 +27,7 @@
   },
   "private": true,
   "dependencies": {
+    "jest-marbles": "^2.5.1",
     "rxjs": "^6.6.3",
     "rxjs-util": "^1.5.0"
   },

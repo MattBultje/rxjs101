@@ -1,5 +1,5 @@
-import { interval, of, timer } from 'rxjs';
-import { concatMap, delay, switchMap } from 'rxjs/operators';
+import { of } from 'rxjs';
+import { delay, switchMap } from 'rxjs/operators';
 import { tapLog } from 'rxjs-util/dist';
 
 describe('switchMap', () => {
