@@ -94,7 +94,7 @@ describe(SpyObservableMain.name, () => {
                     // Er wordt gesubscribed op dep1.
                     // Observable in error-state, want dep1 fails. Observable van main dus ook in error-state.
                     // Klaar...
-                    // Er wordt niet gesubscribed op dep2.
+                    // Dus: Er wordt niet gesubscribed op dep2.
                     expect(doDep2StuffObs.subscribe).toBeCalledTimes(0);
                     done();
                 }
