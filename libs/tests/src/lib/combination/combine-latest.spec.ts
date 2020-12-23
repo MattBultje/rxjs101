@@ -8,6 +8,14 @@ describe('combineLatest', () => {
             cold('-A--B-C-|')
         ]);
 
-        obs.subscribe(console.log);
+        const expected = cold('-a-bc-de-|', {
+            a: ['1', 'A'],
+            b: ['2', 'A'],
+            c: ['2', 'B'],
+            d: ['2', 'C'],
+            e: ['3', 'C'],
+        })
+
+        expect(obs).toBeObservable(expected)
     });
 });
