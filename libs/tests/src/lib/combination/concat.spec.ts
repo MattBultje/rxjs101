@@ -28,5 +28,15 @@ describe('Concat', () => {
             complete: () => console.log('completed')
         });
     });
+
+    test('should emit last given data', () => {
+        const arr = [EMPTY, EMPTY];
+
+        concat(
+            ...arr,
+            of('data')
+        )
+            .subscribe(console.log)
+    })
 });
 
